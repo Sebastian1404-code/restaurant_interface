@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #34dbeb;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.final_project_fxml.LoginController">
+   <children>
+      <Button fx:id="Monica" layoutX="52.0" layoutY="70.0" mnemonicParsing="false" onAction="#verify" prefHeight="34.0" prefWidth="84.0" style="-fx-background-color: #4287f5;" text="Monica" />
+      <Button fx:id="Sebi" layoutX="52.0" layoutY="134.0" mnemonicParsing="false" onAction="#verify" prefHeight="34.0" prefWidth="84.0" style="-fx-background-color: #4287f5;" text="Sebi" />
+      <Button fx:id="Lorena" layoutX="52.0" layoutY="200.0" mnemonicParsing="false" onAction="#verify" prefHeight="34.0" prefWidth="84.0" style="-fx-background-color: #4287f5;" text="Lorena" />
+      <Button fx:id="Bogdan" layoutX="52.0" layoutY="271.0" mnemonicParsing="false" onAction="#verify" prefHeight="34.0" prefWidth="84.0" style="-fx-background-color: #4287f5;" text="Bogdan" />
+      <TextField fx:id="pin" layoutX="317.0" layoutY="75.0" promptText="Pin" />
+      <Button fx:id="delete" layoutX="487.0" layoutY="70.0" mnemonicParsing="false" onAction="#erase" prefHeight="18.0" prefWidth="30.0" style="-fx-background-color: #4287f5;" text="-">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="c1" layoutX="317.0" layoutY="120.0" mnemonicParsing="false" onAction="#add_digit" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #4287f5;" text="1" />
+      <Button fx:id="c2" layoutX="361.0" layoutY="120.0" mnemonicParsing="false" onAction="#add_digit" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #4287f5;" text="2" />
+      <Button fx:id="c3" layoutX="406.0" layoutY="120.0" mnemonicParsing="false" onAction="#add_digit" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #4287f5;" text="3" />
+      <Button fx:id="c4" layoutX="317.0" layoutY="160.0" mnemonicParsing="false" onAction="#add_digit" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #4287f5;" text="4" />
+      <Button fx:id="c5" layoutX="361.0" layoutY="160.0" mnemonicParsing="false" onAction="#add_digit" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #4287f5;" text="5" />
+      <Button fx:id="c6" layoutX="406.0" layoutY="160.0" mnemonicParsing="false" onAction="#add_digit" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #4287f5;" text="6" />
+      <Button fx:id="c7" layoutX="317.0" layoutY="202.0" mnemonicParsing="false" onAction="#add_digit" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #4287f5;" text="7" />
+      <Button fx:id="c8" layoutX="361.0" layoutY="202.0" mnemonicParsing="false" onAction="#add_digit" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #4287f5;" text="8" />
+      <Button fx:id="c9" layoutX="406.0" layoutY="202.0" mnemonicParsing="false" onAction="#add_digit" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #4287f5;" text="9" />
+   </children>
+</AnchorPane>
